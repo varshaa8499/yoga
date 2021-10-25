@@ -1,0 +1,80 @@
+body{
+    background: url(/yoga2.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Exo', sans-serif;
+    
+}
+#left{
+    
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+#left div{
+    font-family: 'Zen Tokyo Zoo' , cursive;
+}
+#left img{
+    height: 65px;
+    width: 62px;
+    display: block;
+    
+}
+#mid{
+    background: linear-gradient(rgb(246, 249, 250), rgb(88, 106, 112));
+    border-radius: 30px;
+    display: block;
+    width: 36%;
+    margin: 8px auto;
+    font-size: 20px;
+}
+.btn{
+    font-family: 'Exo', sans-serif;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+    padding-left: 10px ;
+}
+.btn:hover{
+    background-color: darkgray;
+}
+#right{
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    padding: 10px ;
+}
+input[type="search"]{
+    border-radius: 20px;
+    padding: 10px;
+}
+.mid-nav{
+    display: inline-block;
+}
+.mid-nav li{
+    display: inline-block;
+    padding: 0px 12px ;
+
+}
+.mid-nav li a{
+    text-decoration: none;
+    color: black;
+}
+.mid-nav li a:hover{
+    color:rgb(141, 61, 61);
+    
+}
+.form{
+    width: 43%;
+    margin: 80px 40px ;
+}
+.submit-btn{
+    background-color: rgb(219, 219, 217);
+    margin-left: 80px;
+    font-size: medium;
+}
+.submit-btn:hover{
+    background-color: rgb(111, 167, 111);
+}
